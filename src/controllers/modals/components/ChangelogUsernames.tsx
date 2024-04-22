@@ -74,7 +74,7 @@ export default function ChangelogUsernames({
                                         fontSize: "0.9em",
                                         fontWeight: 500,
                                     }}>
-                                    We've changed how usernames work on Revolt.
+                                    We've changed how usernames work on Klay.
                                     Now you can set a display name in addition
                                     to a username with a number tag for easier
                                     sharing.
@@ -109,8 +109,7 @@ export default function ChangelogUsernames({
                                     disabled
                                 />
                                 <a
-                                    href="https://revolt.chat/posts/evolving-usernames"
-                                    target="_blank">
+                                    href="#">
                                     Read more about this change
                                 </a>
                             </Column>

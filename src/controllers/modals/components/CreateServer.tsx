@@ -25,7 +25,7 @@ export default function CreateServer({
                 <div>
                     By creating this server, you agree to the{" "}
                     <a
-                        href="https://revolt.chat/aup"
+                        href="#"
                         target="_blank"
                         rel="noreferrer">
                         Acceptable Use Policy.

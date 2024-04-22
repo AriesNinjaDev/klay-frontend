@@ -7,7 +7,7 @@ export function report(object: Server) {
     }
 
     window.open(
-        `mailto:abuse@revolt.chat?subject=${encodeURIComponent(
+        `mailto:abuse@klay.lol?subject=${encodeURIComponent(
             `${type} Report`,
         )}&body=${encodeURIComponent(
             `${type} ID: ${object._id}\nWrite more information here!`,

@@ -39,7 +39,7 @@ interface Props {
     section: "client" | "renderer";
 }
 
-const ERROR_URL = "https://reporting.revolt.chat";
+const ERROR_URL = "https://reporting.klay.lol";
 
 export function reportError(error: Error, section: string) {
     stackTrace.fromError(error).then((stackframes) =>
@@ -101,7 +101,7 @@ export default function ErrorBoundary({ children, section }: Props) {
                 )}
                 <br />
                 <br />
-                <div>Revolt has crashed. Here's the error:</div>
+                <div>Klay has crashed. Here's the error:</div>
                 <pre>
                     <code>{error?.stack}</code>
                 </pre>

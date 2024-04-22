@@ -98,7 +98,7 @@ export const Overview = observer(({ server }: Props) => {
                 <h5>
                     {"Server descriptions support Markdown formatting. "}
                     <a
-                        href="https://support.revolt.chat/kb/interface/messages/formatting-your-messages"
+                        href="https://www.markdownguide.org/cheat-sheet/"
                         target="_blank"
                         rel="noreferrer">
                         {"Learn more here"}

@@ -68,7 +68,7 @@ export default function UserBadges({ badges, uid }: Props) {
                             }}
                             onClick={() => {
                                 window.open(
-                                    "https://weblate.insrt.uk/projects/revolt/web-app/",
+                                    "mailto:translate@klay.lol",
                                     "_blank",
                                 );
                             }}

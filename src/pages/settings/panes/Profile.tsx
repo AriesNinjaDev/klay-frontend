@@ -192,7 +192,7 @@ export const Profile = observer(() => {
                 <h5>
                     Descriptions support Markdown formatting,{" "}
                     <a
-                        href="https://developers.revolt.chat/markdown"
+                        href="https://www.markdownguide.org/cheat-sheet/"
                         target="_blank"
                         rel="noreferrer">
                         learn more here

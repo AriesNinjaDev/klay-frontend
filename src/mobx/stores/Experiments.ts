@@ -16,10 +16,8 @@ export type Experiment = "dummy" | "offline_users" | "plugins" | "admin_beta";
  * Currently active experiments.
  */
 export const AVAILABLE_EXPERIMENTS: Experiment[] = [
-    "dummy",
     "offline_users",
     "plugins",
-    "admin_beta",
 ];
 
 /**
@@ -35,7 +33,7 @@ export const EXPERIMENTS: {
     offline_users: {
         title: "Re-enable offline users in large servers (>10k members)",
         description:
-            "If you can take the performance hit - for example, if you're on desktop - you can re-enable offline users for big servers such as the Revolt Lounge.",
+            "If you can take the performance hit - for example, if you're on desktop - you can re-enable offline users for big servers (although there probably aren't any yet).",
     },
     plugins: {
         title: "Experimental Plugin API",
@@ -45,7 +43,7 @@ export const EXPERIMENTS: {
     admin_beta: {
         title: "Admin Panel Shortcuts",
         description:
-            "Adds context menu entries to quickly jump to Revolt Admin Panel. This is intended for use by the team.",
+            "Adds context menu entries to quickly jump to Klay Admin Panel. This is intended for use by the team.",
     },
 };
 

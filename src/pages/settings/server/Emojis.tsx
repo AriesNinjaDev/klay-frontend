@@ -35,14 +35,7 @@ export const Emojis = observer(({ server }: Props) => {
         <Column>
             <Tip palette="warning">
                 <span>
-                    This UI was never finished and will be polished in the{" "}
-                    <a
-                        style={{ color: "inherit", fontWeight: "600" }}
-                        href="https://github.com/revoltchat/frontend/issues/14"
-                        target="_blank"
-                        rel="noreferrer">
-                        new client
-                    </a>
+                    This UI is super jank mb.
                     .<br />
                     <br />
                     Also please note that emoji names must be lowercase

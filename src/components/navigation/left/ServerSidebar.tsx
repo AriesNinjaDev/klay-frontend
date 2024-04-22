@@ -144,7 +144,6 @@ export default observer(() => {
                 })}>
                 {elements}
             </ServerList>
-            <PaintCounter small />
         </ServerBase>
     );
 });

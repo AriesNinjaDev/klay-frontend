@@ -203,7 +203,7 @@ export const Languages = observer(() => {
                 <span>
                     <Text id="app.settings.tips.languages.a" />{" "}
                     <a
-                        href="https://weblate.insrt.uk/engage/revolt/?utm_source=widget"
+                        href="mailto:translate@klay.lol"
                         target="_blank"
                         rel="noreferrer">
                         <Text id="app.settings.tips.languages.b" />
