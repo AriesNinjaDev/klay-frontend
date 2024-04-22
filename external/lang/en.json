@@ -63,7 +63,7 @@
             "resend": "Failed to resend!",
             "verify": "Failed to verify!"
         },
-        "unofficial_instance": "Third-party instance."
+        "unofficial_instance": "This app is in beta."
     },
     "app": {
         "status": {
