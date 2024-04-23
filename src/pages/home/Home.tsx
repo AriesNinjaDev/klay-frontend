@@ -164,7 +164,8 @@ export default observer(() => {
                                 </Link>
                             )}
 
-                            <Link to="/settings/feedback">
+                            <a
+                                href="#" onClick={() => alert("Feedback page coming soon!")}>
                                 <CategoryButton
                                     action="chevron"
                                     icon={<Megaphone size={32} />}
@@ -173,7 +174,7 @@ export default observer(() => {
                                     }>
                                     <Text id="app.home.feedback" />
                                 </CategoryButton>
-                            </Link>
+                            </a>
                             <a
                                 href="https://insrt.uk/donate"
                                 target="_blank"

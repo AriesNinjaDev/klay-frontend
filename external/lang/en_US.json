@@ -53,7 +53,7 @@
         "subtitle2": "Create an account",
         "welcome": "Welcome!",
         "subtitle": "Sign into Klay",
-        "unofficial_instance": "Third-party instance.",
+        "unofficial_instance": "This app is in beta.",
         "totp": "Authenticator App",
         "recovery": "Recovery Code",
         "verifying_account": "Verifying your account…",
