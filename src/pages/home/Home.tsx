@@ -125,8 +125,8 @@ export default observer(() => {
                                     <Text id="app.home.group" />
                                 </CategoryButton>
                             </a>
-                            <Link to="/discover">
-                                <a>
+{/*                             <Link to="/discover"> */}
+                                <a href="#" onClick={() => alert("Discovery page coming soon!")}>
                                     <CategoryButton
                                         action="chevron"
                                         icon={<Compass size={32} />}
@@ -136,7 +136,7 @@ export default observer(() => {
                                         <Text id="app.home.discover" />
                                     </CategoryButton>
                                 </a>
-                            </Link>
+{/*                             </Link> */}
 
                             {client.servers.get(
                                 "01F7ZSBSFHQ8TA81725KQCSDDP",
@@ -176,7 +176,7 @@ export default observer(() => {
                                 </CategoryButton>
                             </a>
                             <a
-                                href="https://insrt.uk/donate"
+                                href="https://buymeacoffee.com/ariesninja/"
                                 target="_blank"
                                 rel="noreferrer">
                                 <CategoryButton
