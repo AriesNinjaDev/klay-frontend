@@ -62,7 +62,7 @@ export default observer(() => {
                                 <img src={wideSVG} draggable={false} />
                             )}
                         </a>
-                        <LocaleSelector />
+                        {/* <LocaleSelector /> */}
                     </div>
                     {/*<div className={styles.middle}>*/}
                     <div className={styles.form}>

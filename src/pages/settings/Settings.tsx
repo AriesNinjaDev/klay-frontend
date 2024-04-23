@@ -179,11 +179,11 @@ export default observer(() => {
                     icon: <Bell size={20} />,
                     title: <Text id="app.settings.pages.notifications.title" />,
                 },
-                {
-                    id: "language",
-                    icon: <Globe size={20} />,
-                    title: <Text id="app.settings.pages.language.title" />,
-                },
+                // {
+                //     id: "language",
+                //     icon: <Globe size={20} />,
+                //     title: <Text id="app.settings.pages.language.title" />,
+                // },
                 {
                     id: "sync",
                     icon: <SyncIcon size={20} />,
@@ -230,9 +230,9 @@ export default observer(() => {
                     <Route path="/settings/notifications">
                         <Notifications />
                     </Route>
-                    <Route path="/settings/language">
+                    {/* <Route path="/settings/language">
                         <Languages />
-                    </Route>
+                    </Route> */}
                     <Route path="/settings/sync">
                         <Sync />
                     </Route>
