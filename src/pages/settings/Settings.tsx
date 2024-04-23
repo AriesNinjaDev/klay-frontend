@@ -268,8 +268,7 @@ export default observer(() => {
                     </ButtonItem>
                     <div className={styles.version}>
                         <span>
-                            Beta
-                            {APP_VERSION}
+                            Beta v{APP_VERSION}
                         </span>
                         {window.isNative && (
                             <span>Native: {window.nativeVersion}</span>

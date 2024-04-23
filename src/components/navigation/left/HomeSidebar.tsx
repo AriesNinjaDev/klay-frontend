@@ -115,7 +115,7 @@ export default observer(() => {
                         </span>
                     </ButtonItem>
                 </ConditionalLink>
-                {import.meta.env.DEV && (
+                {/* {import.meta.env.DEV && (
                     <Link to="/dev">
                         <ButtonItem active={pathname === "/dev"}>
                             <Wrench size={20} />
@@ -124,7 +124,7 @@ export default observer(() => {
                             </span>
                         </ButtonItem>
                     </Link>
-                )}
+                )} */}
                 <Category>
                     <Text id="app.main.categories.conversations" />
                     <IconButton
