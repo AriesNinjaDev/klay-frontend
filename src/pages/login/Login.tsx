@@ -98,19 +98,19 @@ export default observer(() => {
                         <div className={styles.links}>
                             <div className={styles.socials}>
                                 <a
-                                    href="https://github.com/revoltchat"
+                                    href="https://github.com/AriesNinjaDev"
                                     target="_blank"
                                     rel="noreferrer">
                                     <Github size={24} />
                                 </a>
                                 <a
-                                    href="https://twitter.com/revoltchat"
+                                    href="#"
                                     target="_blank"
                                     rel="noreferrer">
                                     <Twitter size={24} />
                                 </a>
                                 <a
-                                    href="https://mastodon.social/@revoltchat"
+                                    href="#"
                                     target="_blank"
                                     rel="noreferrer">
                                     <Mastodon size={24} />
@@ -119,19 +119,19 @@ export default observer(() => {
                             <div className={styles.bullet} />
                             <div className={styles.revolt}>
                                 <a
-                                    href="https://revolt.chat/about"
+                                    href="#"
                                     target="_blank"
                                     rel="noreferrer">
                                     <Text id="general.about" />
                                 </a>
                                 <a
-                                    href="https://revolt.chat/terms"
+                                    href="#"
                                     target="_blank"
                                     rel="noreferrer">
                                     <Text id="general.tos" />
                                 </a>
                                 <a
-                                    href="https://revolt.chat/privacy"
+                                    href="#"
                                     target="_blank"
                                     rel="noreferrer">
                                     <Text id="general.privacy" />
