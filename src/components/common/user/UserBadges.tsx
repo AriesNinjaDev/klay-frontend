@@ -44,7 +44,7 @@ export default function UserBadges({ badges, uid }: Props) {
                         content={
                             <Text id="app.special.popovers.user_profile.badges.founder" />
                         }>
-                        <img src="/assets/badges/founder.svg" />
+                        <img src="https://github.com/AriesNinjaDev/klay-frontend/blob/24d7686a18e16195e03aa36bacda3d1d081b2cf6/src/assets/badges/founder.svg" />
                     </Tooltip>
                 ) : (
                     <></>
