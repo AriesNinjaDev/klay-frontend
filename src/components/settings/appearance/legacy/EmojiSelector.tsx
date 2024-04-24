@@ -101,15 +101,6 @@ export function EmojiSelector({ value, setValue }: Props) {
                                 onContextMenu={(e) => e.preventDefault()}
                             />
                         </div>
-                        <h4>
-                            Mutant Remix{" "}
-                            <a
-                                href="https://mutant.revolt.chat"
-                                target="_blank"
-                                rel="noreferrer">
-                                (by Revolt)
-                            </a>
-                        </h4>
                     </div>
                     <div>
                         <div
