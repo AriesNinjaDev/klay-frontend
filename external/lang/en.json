@@ -709,7 +709,7 @@
                         "translator": "Translator",
                         "supporter": "Supporter",
                         "moderation": "Platform Moderation",
-                        "responsible_disclosure": "Responsibly Disclosed Security Issues",
+                        "responsible_disclosure": "Platform Operator",
                         "early_adopter": "Early Adopter"
                     }
                 },

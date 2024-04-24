@@ -44,14 +44,14 @@ export default function UserBadges({ badges, uid }: Props) {
                         content={
                             <Text id="app.special.popovers.user_profile.badges.founder" />
                         }>
-                        <img src="/assets/badges/founder.svg" />
+                        <img src="https://app.revolt.chat/assets/badges/founder.svg" />
                     </Tooltip>
                 ) : (
                     <></>
                 )}
                 {badges & Badges.Developer ? (
                     <Tooltip content={<Text id="app.navigation.tabs.dev" />}>
-                        <img src="/assets/badges/developer.svg" />
+                        <img src="https://app.revolt.chat/assets/badges/developer.svg" />
                     </Tooltip>
                 ) : (
                     <></>
@@ -62,7 +62,7 @@ export default function UserBadges({ badges, uid }: Props) {
                             <Text id="app.special.popovers.user_profile.badges.translator" />
                         }>
                         <img
-                            src="/assets/badges/translator.svg"
+                            src="https://app.revolt.chat/assets/badges/translator.svg"
                             style={{
                                 cursor: "pointer",
                             }}
@@ -82,7 +82,7 @@ export default function UserBadges({ badges, uid }: Props) {
                         content={
                             <Text id="app.special.popovers.user_profile.badges.early_adopter" />
                         }>
-                        <img src="/assets/badges/early_adopter.svg" />
+                        <img src="https://app.revolt.chat/assets/badges/early_adopter.svg" />
                     </Tooltip>
                 ) : (
                     <></>
@@ -92,7 +92,7 @@ export default function UserBadges({ badges, uid }: Props) {
                         content={
                             <Text id="app.special.popovers.user_profile.badges.moderation" />
                         }>
-                        <img src="/assets/badges/moderation.svg" />
+                        <img src="https://app.revolt.chat/assets/badges/moderation.svg" />
                     </Tooltip>
                 ) : (
                     <></>
@@ -113,13 +113,13 @@ export default function UserBadges({ badges, uid }: Props) {
                             <Text id="app.special.popovers.user_profile.badges.supporter" />
                         }>
                         <img
-                            src="/assets/badges/supporter.svg"
+                            src="https://app.revolt.chat/assets/badges/supporter.svg"
                             style={{
                                 cursor: "pointer",
                             }}
                             onClick={() => {
                                 window.open(
-                                    "https://insrt.uk/donate",
+                                    "https://buymeacoffee.com/ariesninja",
                                     "_blank",
                                 );
                             }}
@@ -130,28 +130,28 @@ export default function UserBadges({ badges, uid }: Props) {
                 )}
                 {badges & Badges.ReservedRelevantJokeBadge1 ? (
                     <Tooltip content="sus">
-                        <img src="/assets/badges/amog.svg" />
+                        <img src="https://app.revolt.chat/assets/badges/amog.svg" />
                     </Tooltip>
                 ) : (
                     <></>
                 )}
                 {badges & Badges.ReservedRelevantJokeBadge2 ? (
                     <Tooltip content="It's Morbin Time">
-                        <img src="/assets/badges/amorbus.svg" />
+                        <img src="https://app.revolt.chat/assets/badges/amorbus.svg" />
                     </Tooltip>
                 ) : (
                     <></>
                 )}
                 {badges & Badges.Paw ? (
                     <Tooltip content="🦊">
-                        <img src="/assets/badges/paw.svg" />
+                        <img src="https://app.revolt.chat/assets/badges/paw.svg" />
                     </Tooltip>
                 ) : (
                     <></>
                 )}
                 {uid === "01EX2NCWQ0CHS3QJF0FEQS1GR4" ? (
                     <Tooltip content="🦝">
-                        <img src="/assets/badges/raccoon.svg" />
+                        <img src="https://app.revolt.chat/assets/badges/raccoon.svg" />
                     </Tooltip>
                 ) : (
                     <></>
