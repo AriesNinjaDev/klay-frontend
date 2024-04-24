@@ -144,6 +144,7 @@ export class User {
      * Send a friend request to a user
      */
     async addFriend() {
+        console.log("add sent");
         User.jsConfetti.addConfetti({
             confettiNumber: 100,
             confettiRadius: 10,
