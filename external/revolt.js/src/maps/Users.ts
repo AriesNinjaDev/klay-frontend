@@ -18,7 +18,7 @@ import { Client, FileArgs } from "..";
 import _ from "lodash";
 import { decodeTime } from "ulid";
 
-import { JSConfetti } from 'js-confetti';
+import JSConfetti from 'js-confetti';
 
 export class User {
     client: Client;
