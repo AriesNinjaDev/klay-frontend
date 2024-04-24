@@ -18,6 +18,8 @@ import { Client, FileArgs } from "..";
 import _ from "lodash";
 import { decodeTime } from "ulid";
 
+import { JSConfetti } from 'js-confetti';
+
 export class User {
     client: Client;
 
@@ -136,10 +138,16 @@ export class User {
         return dm;
     }
 
+    static jsConfetti: JSConfetti = new JSConfetti();
+
     /**
      * Send a friend request to a user
      */
     async addFriend() {
+        User.jsConfetti.addConfetti({
+            confettiNumber: 100,
+            confettiRadius: 10,
+          });
         return await this.client.api.post(`/users/friend`, {
             username: this.username + "#" + this.discriminator,
         });

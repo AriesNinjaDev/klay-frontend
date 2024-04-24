@@ -18,6 +18,7 @@ import UserIcon from "../../components/common/user/UserIcon";
 import UserStatus from "../../components/common/user/UserStatus";
 import { modalController } from "../../controllers/modals/ModalController";
 
+
 interface Props {
     user: User;
 }
