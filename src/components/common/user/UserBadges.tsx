@@ -44,7 +44,7 @@ export default function UserBadges({ badges, uid }: Props) {
                         content={
                             <Text id="app.special.popovers.user_profile.badges.founder" />
                         }>
-                        <img src="https://app.revolt.chat/assets/badges/founder.svg" />
+                        <img src="/assets/badges/founder.svg" />
                     </Tooltip>
                 ) : (
                     <></>
