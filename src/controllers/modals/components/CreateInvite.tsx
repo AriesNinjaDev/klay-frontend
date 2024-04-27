@@ -38,13 +38,15 @@ export default function CreateInvite({
     const [processing, setProcessing] = useState(false);
     const [code, setCode] = useState("abcdef");
 
+    var theid;
+
     // Generate an invite code
     useEffect(() => {
         setProcessing(true);
 
         target
             .createInvite()
-            .then(({ _id }) => setCode(_id))
+            .then(({ _id }) => {setCode(_id); theid = _id;})
             .catch((err) =>
                 modalController.push({ type: "error", error: takeError(err) }),
             )
@@ -65,7 +67,7 @@ export default function CreateInvite({
                     ) : (
                         <Invite>
                             <Text id="app.special.modals.prompt.create_invite_created" />
-                            <code>{code}</code>
+                            <code>{theid}</code>
                         </Invite>
                     ),
                 },
