@@ -101,7 +101,7 @@ export default function UserBadges({ badges, uid }: Props) {
                         content={
                             <Text id="app.special.popovers.user_profile.badges.responsible_disclosure" />
                         }>
-                        <img src="REPLACE_ME" />
+                        <img src="https://raw.githubusercontent.com/ariesninjadev/klay-frontend/master/src/assets/badges/flycatcher.png" />
                     </Tooltip>
                 ) : (
                     <></>
