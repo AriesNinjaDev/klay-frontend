@@ -62,14 +62,13 @@ export default function UserBadges({ badges, uid }: Props) {
                             <Text id="app.special.popovers.user_profile.badges.translator" />
                         }>
                         <img
-                            src="https://app.revolt.chat/assets/badges/translator.svg"
+                            src="https://raw.githubusercontent.com/ariesninjadev/klay-frontend/11e3c89381e6f605870cc41825326c6227084ee4/src/assets/badges/jesuit.png"
                             style={{
                                 cursor: "pointer",
                             }}
                             onClick={() => {
-                                window.open(
-                                    "mailto:translate@klay.lol",
-                                    "_blank",
+                                alert(
+                                    "If you are a Jesuit student, please email jesuit@klay.lol to claim your badge.",
                                 );
                             }}
                         />
@@ -102,7 +101,7 @@ export default function UserBadges({ badges, uid }: Props) {
                         content={
                             <Text id="app.special.popovers.user_profile.badges.responsible_disclosure" />
                         }>
-                        <Shield size={24} color="gray" />
+                        <img src="REPLACE_ME" />
                     </Tooltip>
                 ) : (
                     <></>

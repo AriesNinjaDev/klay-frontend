@@ -706,10 +706,10 @@
                     },
                     "badges": {
                         "founder": "Founder",
-                        "translator": "Translator",
+                        "translator": "Jesuit Student",
                         "supporter": "Supporter",
                         "moderation": "Platform Moderation",
-                        "responsible_disclosure": "Platform Operator",
+                        "responsible_disclosure": "Bug Catcher",
                         "early_adopter": "Early Adopter"
                     }
                 },
