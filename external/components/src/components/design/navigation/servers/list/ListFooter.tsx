@@ -22,7 +22,7 @@ export function ListFooter({ createServer, showDiscover }: FooterProps) {
     return (
         <>
 {/*             <a onClick={createServer}> */}
-            <a onClick='event => {alert("Servers are not avaiable yet! Check back soon.")}'>
+            <a onClick={(event: MouseEvent) => { alert("Servers are coming soon!") } }>
                 <ItemContainer>
                     <Tooltip content="Add a server" div right>
                         <Avatar
