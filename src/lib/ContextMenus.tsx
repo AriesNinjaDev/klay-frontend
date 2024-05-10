@@ -375,7 +375,7 @@ export default function ContextMenus() {
                     });
                     break;
                 case "cancel_friend":
-                    await data.user.removeFriend();
+                    await data.user.removeFriend().then(() => {location.reload()});
                     break;
 
                 case "set_presence":

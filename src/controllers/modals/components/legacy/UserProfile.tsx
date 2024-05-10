@@ -242,7 +242,7 @@ export const UserProfile = observer(
                                 </IconButton>
                             )}
                         {user.relationship === "Outgoing" && (
-                            <IconButton onClick={() => user.removeFriend()}>
+                            <IconButton onClick={() => user.removeFriend().then(() => {location.reload()})}>
                                 <UserX size={28} />
                             </IconButton>
                         )}

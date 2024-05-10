@@ -71,6 +71,7 @@ export default function Confirmation(
                 switch (props.type) {
                     case "unfriend_user":
                         await props.target.removeFriend();
+                        location.reload();
                         break;
                     case "block_user":
                         await props.target.blockUser();

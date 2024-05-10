@@ -104,7 +104,7 @@ export const Friend = observer(({ user }: Props) => {
                                   type: "unfriend_user",
                                   target: user,
                               })
-                            : user.removeFriend(),
+                            : user.removeFriend().then(() => {location.reload()}),
                     )
                 }>
                 <X size={24} />
