@@ -62,7 +62,7 @@ export default function UserBadges({ badges, uid }: Props) {
                             <Text id="app.special.popovers.user_profile.badges.translator" />
                         }>
                         <img
-                            src="https://raw.githubusercontent.com/ariesninjadev/klay-frontend/11e3c89381e6f605870cc41825326c6227084ee4/src/assets/badges/jesuit.png"
+                            src="https://raw.githubusercontent.com/ariesninjadev/klay-frontend/master/src/assets/badges/jesuit.png"
                             style={{
                                 cursor: "pointer",
                             }}

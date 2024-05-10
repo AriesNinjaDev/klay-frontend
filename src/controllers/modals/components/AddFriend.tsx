@@ -2,7 +2,7 @@ import { Text } from "preact-i18n";
 
 import { ModalForm } from "@revoltchat/ui";
 
-import { noop } from "../../../lib/js";
+import { viableReload } from "../../../lib/js";
 
 import { useClient } from "../../client/ClientController";
 import { ModalProps } from "../types";
@@ -27,7 +27,7 @@ export default function AddFriend({ ...props }: ModalProps<"add_friend">) {
                 },
             }}
             callback={({ username }) =>
-                client.api.post(`/users/friend`, { username }).then(noop)
+                client.api.post(`/users/friend`, { username }).then(viableReload)
             }
             submit={{
                 children: <Text id="app.special.modals.actions.ok" />,
