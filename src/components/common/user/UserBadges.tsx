@@ -68,7 +68,7 @@ export default function UserBadges({ badges, uid }: Props) {
                             }}
                             onClick={() => {
                                 alert(
-                                    "If you are a Jesuit student, please email jesuit@klay.lol to claim your badge.",
+                                    "If you are a Jesuit student, please email jesuit@klay.aries.ninja to claim your badge.",
                                 );
                             }}
                         />

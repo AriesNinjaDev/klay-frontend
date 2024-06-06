@@ -203,7 +203,7 @@ export const Languages = observer(() => {
                 <span>
                     <Text id="app.settings.tips.languages.a" />{" "}
                     <a
-                        href="mailto:translate@klay.lol"
+                        href="mailto:translate@klay.aries.ninja"
                         target="_blank"
                         rel="noreferrer">
                         <Text id="app.settings.tips.languages.b" />

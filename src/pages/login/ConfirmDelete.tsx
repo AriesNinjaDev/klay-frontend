@@ -31,7 +31,7 @@ export default function ConfirmDelete() {
                         Your account will be deleted in 7 days.
                         <br />
                         You may contact{" "}
-                        <a href="mailto:contact@klay.lol">
+                        <a href="mailto:contact@klay.aries.ninja">
                             Klay support
                         </a>{" "}
                         to cancel the request if you wish.

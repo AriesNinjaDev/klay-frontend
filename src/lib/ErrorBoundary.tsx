@@ -39,7 +39,7 @@ interface Props {
     section: "client" | "renderer";
 }
 
-const ERROR_URL = "https://reporting.klay.lol";
+const ERROR_URL = "https://reporting.klay.aries.ninja";
 
 export function reportError(error: Error, section: string) {
     stackTrace.fromError(error).then((stackframes) =>
