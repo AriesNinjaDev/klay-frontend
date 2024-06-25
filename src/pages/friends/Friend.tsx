@@ -143,4 +143,4 @@ export const Friend = observer(({ user }: Props) => {
             <div className={styles.actions}>{actions}</div>
         </div>
     );
-});
+}); // rework required!
